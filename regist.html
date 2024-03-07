@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>注册页面</title>
+    <link rel="stylesheet" href="./regist.css">
+    <link rel="shortcut icon" href="./logo.jpg" type="images-index">
+</head>
+
+<body data-vide-bg='ocean.mp4'>
+   
+    <div class="logreg">
+        <!-- 记录 -->
+        <form  autocomplete="off" class="info">
+            <input type="text" class="" name="uname" placeholder="设置用户名">          
+            <span class="usrtext"></span>
+            <input type="text" class="" name="phone" placeholder="输入手机号">
+            <span class="phonetext"></span>
+            <input type="text" class="" name="code" placeholder="短信验证码">
+            <span class="codetext"></span>
+            <a href="javascript:" class="code">发送验证码</a>
+            <input type="text" class="" name="password" placeholder="设置6至20位字母、数字和符号组合">
+            <span class="pwdtext"></span>
+            <input type="password" class="" name="confirm" placeholder="请再次输入上面的密码">
+            <span class="pwdtext2"></span>
+            <div class="sure">
+                <input type="checkbox" class="ui-checkbox">已阅读并同意<i><a href="./text.html">《用户协议》</a></i>
+            </div>
+            <button class="next">提交</button>
+        </form>
+    </div>
+<script src="./regist.js"></script>
+<script src="jquery-3.3.1.js"></script>
+  <script src="jquery.vide.js"></script>
+</body>
+
+</html>
